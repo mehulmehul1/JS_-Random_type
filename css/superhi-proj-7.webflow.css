@@ -1,0 +1,100 @@
+h1 {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 4em;
+  line-height: 1;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 3em;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.body {
+  overflow: visible;
+  background-color: #000;
+  font-family: Iawritermonov, sans-serif;
+  color: #fff;
+  font-size: 1vw;
+  line-height: 1.5;
+}
+
+.image1 {
+  height: 100vh;
+  padding: 4em;
+  background-image: url('../images/image1.jpg');
+  background-position: 50% 50%;
+  background-size: 60vw;
+  background-repeat: no-repeat;
+}
+
+.image2 {
+  height: 100vh;
+  padding: 4em;
+  background-color: #fff;
+  background-image: url('../images/image2.jpg');
+  background-position: 50% 50%;
+  background-size: 60vw;
+  background-repeat: no-repeat;
+  color: #000;
+}
+
+.image3 {
+  height: 100vh;
+  padding: 4em;
+  background-image: url('../images/image3.jpg');
+  background-position: 50% 50%;
+  background-size: 60vw;
+  background-repeat: no-repeat;
+}
+
+.heading-2 {
+  position: absolute;
+  top: 106.7125px;
+  margin-top: 1.5em;
+  font-size: 2em;
+  line-height: 1;
+}
+
+.heading-1 {
+  position: absolute;
+  font-size: 3em;
+}
+
+.heading-3 {
+  font-size: 3em;
+}
+
+.html-embed {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .image1 {
+    background-position: 0% 50%;
+    background-size: cover;
+  }
+
+  .image2 {
+    background-position: 100% 50%;
+    background-size: cover;
+  }
+
+  .image3 {
+    background-position: 100% 50%;
+    background-size: cover;
+  }
+}
+
+@font-face {
+  font-family: 'Iawritermonov';
+  src: url('../fonts/iawritermonov-italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
